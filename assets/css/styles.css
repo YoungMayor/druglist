@@ -1,0 +1,31 @@
+.blue-header {
+  color: rgb(103, 201, 224);
+  /*font-family: montserrat;*/
+}
+
+.blue-header {
+  color: rgb(103, 201, 224);
+  display: inline-block;
+  margin: 10px auto;
+}
+
+.blue-header:after {
+  content: " ";
+  display: block;
+  width: 65%;
+  height: 1px;
+  background-color: #67c9e0;
+  margin: auto;
+  margin-top: 7px;
+}
+
+.btn-blue {
+  background-color: rgb(103, 201, 224);
+  color: white;
+}
+
+.page-section {
+  /*min-height: calc(100vh - 50px);*/
+  padding: 10vw 5vw !important;
+}
+
