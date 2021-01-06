@@ -25,7 +25,6 @@
 }
 
 .page-section {
-  /*min-height: calc(100vh - 50px);*/
-  padding: 10vw 5vw !important;
+  padding: 10vh 5vw !important;
 }
 
