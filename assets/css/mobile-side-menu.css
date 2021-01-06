@@ -44,15 +44,33 @@ body.show-mobile-menu .mobile-menu-box {
     flex-flow: column;
 }
 
-.mobile-menu-navigations .nav-link {}
+.mobile-menu-navigations .nav-link {
+}
 
-.mobile-menu-navigations .nav-dropdown {}
+.mobile-menu-navigations .nav-link, .mobile-menu-navigations .nav-dropdown {
+    padding: 15.5px 30px 15.5px 0;
+    text-transform: uppercase;
+    color: #67c9e0 !important;
+}
+
+.mobile-menu-navigations .mobile-menu-navig:not(:last-child){
+    border-bottom: 1px solid #80808033;
+}
+
+.mobile-menu-navigations .nav-dropdown {
+}
+
+.mobile-menu-navigations .nav-dropdown > a.dropdown-toggle {
+    padding: 0;
+}
 
 .mobile-menu-navigations .nav-dropdown .dropdown-menu {
-    position: relative;
+    position: relative !important;
     border: none;
     width: 100%;
     font-size: 95%;
+    transition: all .4s ease-in;
+    transform: unset !important;
 }
 
 .mobile-nav-social-link {
