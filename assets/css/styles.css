@@ -1,12 +1,9 @@
 .blue-header {
-  color: rgb(103, 201, 224);
-  /*font-family: montserrat;*/
-}
-
-.blue-header {
-  color: rgb(103, 201, 224);
+  color: #67c9e0;
   display: inline-block;
   margin: 10px auto;
+  font-weight: bold;
+  font-family: Raleway;
 }
 
 .blue-header:after {
